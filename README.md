@@ -15,3 +15,7 @@
     - `5672` adalah nomor port di mana message broker mendengarkan. Ini adalah port default untuk RabbitMQ, sebuah message broker populer yang menggunakan AMQP.
 
     Jadi, baik penerbit dan pelanggan berinteraksi dengan message broker yang sama, mungkin menerbitkan dan mengkonsumsi pesan dari antrian yang sama.
+
+##### Running RabbitMQ
+![RabbitMQ](src\images\rabbitmq.png)
+
