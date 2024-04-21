@@ -17,12 +17,12 @@
     Jadi, baik penerbit dan pelanggan berinteraksi dengan message broker yang sama, mungkin menerbitkan dan mengkonsumsi pesan dari antrian yang sama.
 
 #### Running RabbitMQ
-![RabbitMQ](src\images\rabbitmq.png)
+![RabbitMQ](src/images/rabbitmq.png)
 > Tampilan awal pada RabbitMQ
 
-![Console](src\images\console.png)
+![Console](src/images/console.png)
 > Publisher mengirimkan pesan ke RabbitMQ, dan Subscriber mengkonsumsi dan memproses pesan-pesan ini, seperti yang ditunjukkan pada console. Ini menunjukkan fungsionalitas dasar dari Publisher-Subsriber yang menggunakan RabbitMQ sebagai perantara pesan.
 
-![Spike RabbitMQ](src\images\spikerabbitmq.png)
+![Spike RabbitMQ](src/images/spikerabbitmq.png)
 > Dengan mengamati kenaikan pada grafik RabbitMQ ketika menjalankan publisher berulang kali, hal ini menunjukan secara visual bagaimana aktivitas publisher berdampak pada antrian pesan di RabbitMQ. Hal ini membantu dalam memahami antrian pesan dan pemrosesan dalam menggunakan RabbitMQ.
 
